@@ -41,5 +41,7 @@ This Repository includes:
 2. data 
 ## Environment setup and instructions
 git clone <your-repository-url>
+
 cd <your-repository-folder>
+
 git pull origin main
