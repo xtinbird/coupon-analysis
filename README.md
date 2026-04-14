@@ -41,5 +41,9 @@ This Repository includes:
 2. data 
 ## Environment setup and instructions
 git clone <your-repository-url>
+
 cd <your-repository-folder>
+
 git pull origin main
+
+You might need to change the data file diretory in the read csv, depends on where you put it.
