@@ -40,9 +40,9 @@ This Repository includes:
 1. jupyter notebook.You can find at https://github.com/xtinbird/coupon-analysis/blob/main/notebook/prompt.ipynb
 2. data.You can find at https://github.com/xtinbird/coupon-analysis/blob/main/notebook/data/coupons.csv
 ## Environment setup and instructions
-git clone <your-repository-url>
+git clone < your-repository-url >
 
-cd <your-repository-folder>
+cd < your-repository-folder >
 
 git pull origin main
 
