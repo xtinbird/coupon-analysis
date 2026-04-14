@@ -22,28 +22,35 @@ Explore the data, use pandas and Python to create statistical summaries demonstr
 Use pandas liberary to clean up data in the corrsponding features, to ensure the accuracy of the finding.
 ## Finding
 1. Out of different coupons, cheap retaurant, carry out &take away and coffee House have high coupon acceptance in terms of rate and counts. While bar and retaurant(20-50) have lower coupon acceptace in terms of rate and counts.
-
 2. For bar coupon:
     2.1 Drivers who go to bar less than 3 times accept coupon rate is much higher than drivers go to bar 3 or less times in a month.
     2.2 Drivers who is under 30 years old and go to bar more than 1 times per month intent to have higher acceptance of bar coupon .
     2.3 Drivers go to cheap restaurant more than 4 times a month and annual income less than 50K intent to have higher bar coupon acceptance rate.
     2.4 Drivers dont have kid(s) as passenger, and go to bar more than once a month tent to have high coupon acceptance rate. While those who have passenger(s) as kid(s) tend to reject coupon.
-
 3. For coffee house coupon:
     drivers that younger than 41 years old, student, Computer & Mathematical, higher education(some colledge or more), visit coffee house more often, in the morning hours 10AM, intent to accept coffee house coupon more. For drivers never go to coffee house, or some high school education, their coffeehouse coupon acceptance in terms of counts and rate are very low.
+   
 ## Next steps:
 1. Explore more the acceptance rate for coffee house coupon, with combination of the features, ie, combine age with income, occupation...etc. 
 2. Target the group mentioned above, for distribution of coffeeHouse coupon in counts and accpetance rate.
 3. Explore other coupons, ie, takeAway... and target distribution base on the similar analaysis.
+   
 ## Repository 
 This Repository includes:
 1. jupyter notebook.You can find at https://github.com/xtinbird/coupon-analysis/blob/main/notebook/prompt.ipynb
 2. data.You can find at https://github.com/xtinbird/coupon-analysis/blob/main/notebook/data/coupons.csv
+3. README.md
+
+Directory & Folder Hierarchy as following:
+├── notebook/
+|   ├── data/
+|   |   └── coupons.csv
+|   └── prompt.ipynb
+└── README.md
+
 ## Environment setup and instructions
 git clone < your-repository-url >
-
 cd < your-repository-folder >
-
 git pull origin main
-
-You might need to change the data file diretory in the read csv, depends on where you put it.
+run with Jupyter notebook prompt.ipynb file.
+You might need to change the data file diretory in read csv, depends on which directory coupons.csv located.
