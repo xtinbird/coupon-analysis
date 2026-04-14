@@ -37,7 +37,7 @@ Use pandas liberary to clean up data in the corrsponding features, to ensure the
 3. Explore other coupons, ie, takeAway... and target distribution base on the similar analaysis.
 ## Repository 
 This Repository includes:
-1. jupyter notebook
+1. jupyter notebook https://github.com/xtinbird/coupon-analysis/blob/main/notebook/prompt.ipynb
 2. data 
 ## Environment setup and instructions
 git clone <your-repository-url>
