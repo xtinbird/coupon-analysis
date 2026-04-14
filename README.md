@@ -41,15 +41,15 @@ This Repository includes:
 2. data.You can find at https://github.com/xtinbird/coupon-analysis/blob/main/notebook/data/coupons.csv
 3. README.md
 
-Directory & Folder Hierarchy as following:
-
+project structure as following:
+```text
 ├── notebook/
-|   ├── data/
-|   |   └── coupons.csv
-|   └── prompt.ipynb
+│   ├── data/
+│   │   └── coupons.csv
+│   └── prompt.ipynb
 └── README.md
 
-## Environment setup and instructions
+##Environment setup and instructions
 git clone < your-repository-url >
 cd < your-repository-folder >
 git pull origin main
