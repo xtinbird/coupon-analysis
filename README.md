@@ -42,6 +42,7 @@ This Repository includes:
 3. README.md
 
 Directory & Folder Hierarchy as following:
+
 ├── notebook/
 |   ├── data/
 |   |   └── coupons.csv
