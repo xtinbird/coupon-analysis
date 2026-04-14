@@ -48,10 +48,14 @@ project structure as following:
 │   │   └── coupons.csv
 │   └── prompt.ipynb
 └── README.md
-
-##Environment setup and instructions
+```
+## Environment setup and instructions
 git clone < your-repository-url >
+
 cd < your-repository-folder >
+
 git pull origin main
-run with Jupyter notebook prompt.ipynb file.
-You might need to change the data file diretory in read csv, depends on which directory coupons.csv located.
+
+Run with Jupyter notebook prompt.ipynb file.
+
+You might need to change the data file diretory in read csv, depends on where coupons.csv located.
